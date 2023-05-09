@@ -5,11 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebPack Template</title>
+    <link rel="icon" href="img/favicon-32x32.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Happy+Monkey&display=swap"
+        rel="stylesheet">
+    <title>Stopwatch</title>
 </head>
 
 <body>
-
+    <main class="flex">
+        <header>
+            <h1 class="title">Stopwatch</h1>
+        </header>
+        <div class="display">
+            <div class="circle progress">
+                <div class="piece left"></div>
+                <div class="piece right"></div>
+                <div class="time">
+                    <span class="hr_display"><span class="hr">00</span><span>:</span></span><span
+                        class="min">00</span><span>:</span><span class="sec">00</span><span
+                        class="ms_display"><span>,</span><span class="ms">00</span></span>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button type="button" class="pause btn"></button>
+            <button type="button" class="start btn"></button>
+            <button type="button" class="stop btn"></button>
+        </div>
+    </main>
 </body>
 
 </html>
